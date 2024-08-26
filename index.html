@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JanChetna</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#community-forum">Community Forum</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#my-profile">My Profile</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h1>Welcome to JanChetna</h1>
+            <button id="report-issue" class="glass-btn">Report an issue</button>
+            <div id="issues-container"></div>
+        </section>
+
+        <section id="community-forum" style="display: none;">
+            <h1>Community Forum</h1>
+            <div id="contributions-container"></div>
+        </section>
+
+        <section id="auth-container" class="auth-container" style="display: none;">
+            <!-- Auth forms will be dynamically inserted here -->
+        </section>
+    </main>
+
+    <script src="scripts/app.js" type="module"></script>
+</body>
+</html>
